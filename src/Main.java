@@ -12,5 +12,16 @@ public class Main {
 
 
         companyNameBook.printAll();
+        System.out.println("companyNameBook.getSalarySumPerMonth() = " + companyNameBook.getSalarySumPerMonth());
+        System.out.println("companyNameBook.getMinSalary() = " + companyNameBook.getMinSalary());
+        System.out.println("companyNameBook.getMaxSalary() = " + companyNameBook.getMaxSalary());
+        System.out.println("companyNameBook.getAverageSalary() = " + companyNameBook.getAverageSalary());
+        companyNameBook.printAllFio();
+        companyNameBook.changeSalary("G G G", 51000);
+        companyNameBook.changeDep("F F F", 5);
+        companyNameBook.printAllEmplSortByDep();
+
+
+
     }
 }
